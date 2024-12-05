@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "./ProjectDetails.css";
+import rehypeRaw from "rehype-raw";
+
 
 function ProjectDetails() {
   const { projectId } = useParams();
@@ -25,8 +27,7 @@ function ProjectDetails() {
 
   return (
     <div className="project-details">
-      <h1>Project Details</h1>
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <ReactMarkdown  rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
     </div>
   );
 }

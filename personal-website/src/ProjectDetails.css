@@ -1,16 +1,28 @@
 .project-details {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    text-align: left;
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 3rem;
   }
   
   .project-details h1 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
   }
+
+  .project-details h2 {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+  }
+
+    .project-details h3 {
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
+
   
   .project-details p, .project-details ul, .project-details ol {
-    line-height: 1.6;
+    line-height: 2.0;
   }
   
   .project-details a {

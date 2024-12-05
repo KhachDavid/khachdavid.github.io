@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import About from "./About";
 import Resume from "./Resume";
 import Footer from "./Footer";
+import ProjectDetails from "./ProjectDetails";
 
 import "./App.css";
 
@@ -34,7 +35,7 @@ function App() {
       gif: kuka_gif,
       description:
         "A software that plans a trajectory for the end effector, conducts odometry while the robot moves, and handles feedback control to ensure the robot reaches its goal.",
-      tags: ["Python", "Controls", "CoppeliaSim", "KUKA youBot"],
+      tags: ["Controls", "CoppeliaSim", "KUKA youBot"],
     },
     {
       id: 3,
@@ -63,25 +64,7 @@ function App() {
   ];
 
   const handleDetails = (id) => {
-    switch (id) {
-      case 1:
-        window.open("https://www.el-tracker.com");
-        break;
-      case 2:
-        window.open("https://github.com ");
-        break;
-      case 3:
-        window.open("https://github.com/KhachDavid/pen-challenge/tree/main");
-        break;
-      case 4:
-        window.open("https://davidk.tech/scallops");
-        break;
-      case 5:
-        window.open("https://github.com ");
-        break;
-      default:
-        break;
-    }
+    window.location.href = `/project/${id}`;
   };
 
   return (
@@ -134,6 +117,8 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/project/:projectId" element={<ProjectDetails />} />
+
         </Routes>
         <Footer />
       </div>
