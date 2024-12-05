@@ -3,7 +3,8 @@ import kuka_gif from "./kuka.gif";
 import generator_gif from "./generator_demo.gif";
 import el_tracker from "./el_tracker.jpeg";
 import scallop_eyes from "./sclp.gif";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import About from "./About";
 import Resume from "./Resume";
 import Footer from "./Footer";
@@ -65,11 +66,11 @@ function App() {
   ];
 
   const handleDetails = (id) => {
-    window.location.href = `/project/${id}`;
+    window.location.href = `#/project/${id}`;
   };
 
   return (
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         {/* Header Section */}
         <header className="App-header">
@@ -123,7 +124,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
