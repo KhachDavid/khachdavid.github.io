@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full height for the page */
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -23,6 +29,12 @@ body {
 
 .logo {
   font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: underline;
 }
 
 .nav-links a {
@@ -40,23 +52,31 @@ body {
 /* Gallery Section */
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* Adjust the number of columns based on the screen size */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
   padding: 2rem;
+  padding-bottom: 60px; /* Add space for the footer */
+  flex-grow: 1; /* Allow content to expand and fill the available space */
 }
 
 .gallery-item {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  text-align: center;
+  text-align: left;
   background: #f4f4f4;
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: auto; /* Allow dynamic height based on content */
   min-height: 300px; /* Optional: Adjust this value if you want a minimum height */
+}
+
+.gallery-item:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
 
 .gallery-item h2 {
@@ -84,6 +104,32 @@ body {
   background-color: #0056b3;
 }
 
+/* Tag Styling */
+.tags {
+  margin: 10px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.details-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #0056b3;
+}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {

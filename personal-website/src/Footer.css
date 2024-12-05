@@ -1,0 +1,20 @@
+.footer {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Reduce padding for less height */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .footer-text a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
+  

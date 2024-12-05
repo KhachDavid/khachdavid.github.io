@@ -1,0 +1,24 @@
+.project-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project-details h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-details p, .project-details ul, .project-details ol {
+    line-height: 1.6;
+  }
+  
+  .project-details a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .project-details a:hover {
+    text-decoration: underline;
+  }
+  
