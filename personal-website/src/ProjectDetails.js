@@ -4,6 +4,9 @@ import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "./ProjectDetails.css";
 import rehypeRaw from "rehype-raw";
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css'; // Import KaTeX styles
 
 
 function ProjectDetails() {
@@ -27,7 +30,7 @@ function ProjectDetails() {
 
   return (
     <div className="project-details">
-      <ReactMarkdown  rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
+      <ReactMarkdown  rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={remarkMath}>{content}</ReactMarkdown>
     </div>
   );
 }

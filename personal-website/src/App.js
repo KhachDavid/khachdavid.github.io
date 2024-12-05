@@ -9,6 +9,7 @@ import Resume from "./Resume";
 import Footer from "./Footer";
 import ProjectDetails from "./ProjectDetails";
 
+
 import "./App.css";
 
 function App() {
