@@ -6,6 +6,7 @@ import "./ProjectDetails.css";
 import rehypeRaw from "rehype-raw";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import remarkGfm from 'remark-gfm';
 import 'katex/dist/katex.min.css'; // Import KaTeX styles
 
 
@@ -30,7 +31,43 @@ function ProjectDetails() {
 
   return (
     <div className="project-details">
-      <ReactMarkdown  rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={remarkMath}>{content}</ReactMarkdown>
+      <ReactMarkdown 
+        rehypePlugins={[rehypeRaw, rehypeKatex]}
+        remarkPlugins={[remarkMath, remarkGfm]}
+        remarkRehypeOptions={{ passThrough: ['link'] }}
+        components={{
+          a: props => {
+                        // Check if the link is a local anchor link
+            if (props?.href?.startsWith("#inpage-")) {
+              return (
+                <a
+                  href={props.href}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const target = document.querySelector(props.href);
+                    if (target) {
+                      target.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                >
+                  {props.children}
+                </a>
+              );
+            }
+
+            // For all other links (e.g., external URLs), render as normal
+            return <a href={props.href}>{props.children}</a>;
+          },
+          h1: ({ children }) => (
+            <h1 id={children[0].toLowerCase().replace(/\s+/g, "-")}>{children}</h1>
+          ),
+          h2: ({ children }) => (
+            <h2 id={children[0].toLowerCase().replace(/\s+/g, "-")}>{children}</h2>
+          ),
+        }}
+      >
+        {content}
+      </ReactMarkdown>
     </div>
   );
 }

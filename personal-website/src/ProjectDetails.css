@@ -1,36 +1,49 @@
 .project-details {
-    text-align: left;
-    background: #f4f4f4;
-    border-radius: 8px;
-    padding: 3rem;
-  }
-  
-  .project-details h1 {
-    text-align: left;
-    margin-bottom: 20px;
-  }
+  text-align: left; /* Keep content aligned to the left */
+  padding: 1.5rem; /* Adjust padding for narrower space */
+  border-radius: 0; /* Remove rounded edges for consistency in the panel */
+  background-color: transparent; /* Match the left panel's background */
+}
 
-  .project-details h2 {
-    margin: 1rem 0;
-    font-size: 1.25rem;
-  }
+.project-details h1 {
+  text-align: left;
+  margin-bottom: 1rem; /* Reduce spacing for a more compact layout */
+  font-size: 1.5rem; /* Adjust font size to fit narrower width */
+  color: #333; /* Ensure good readability */
+}
 
-    .project-details h3 {
-        margin: 1rem 0;
-        font-size: 1.1rem;
-    }
+.project-details h2 {
+  margin: 0.75rem 0;
+  font-size: 1.25rem; /* Consistent font size for smaller layouts */
+}
 
-  
-  .project-details p, .project-details ul, .project-details ol {
-    line-height: 2.0;
-  }
-  
-  .project-details a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  .project-details a:hover {
-    text-decoration: underline;
-  }
-  
+.project-details h3 {
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+.project-details h4 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.project-details p,
+.project-details ul,
+.project-details ol {
+  line-height: 1.8; /* Adjust line spacing for better readability in narrow spaces */
+  margin: 0.5rem 0; /* Add some vertical spacing */
+}
+
+.project-details ul,
+.project-details ol {
+  padding-left: 1.5rem; /* Indent lists for clarity */
+}
+
+.project-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-details a:hover {
+  text-decoration: underline;
+}

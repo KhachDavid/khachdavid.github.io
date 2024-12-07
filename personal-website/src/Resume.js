@@ -5,10 +5,6 @@ import resumePDF from './David_Khachatryan_Resume.pdf';
 function Resume() {
   return (
     <div className="resume-page">
-      <h1>My Resume</h1>
-      <p>
-        Below, you can view my resume or download it for your reference.
-      </p>
       <div className="resume-actions">
         <iframe 
           src={resumePDF} 

@@ -1,13 +1,15 @@
 import React from "react";
 import "./About.css";
-import headshot from "./headshot.png";
 
 function About() {
   return (
     <div className="about-page">
-      <h1>About Me</h1>
+      <h1 style={
+        {
+          paddingBottom: "20px",
+        }
+      }>About Me</h1>
       <div className="about-content">
-        <img src={headshot} alt="David Khachatryan" className="headshot" />
         <div className="about-text">
           <p>
             I graduated from the University of Wisconsin-Madison with a B.A. in
