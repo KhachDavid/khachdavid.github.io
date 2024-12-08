@@ -7,8 +7,27 @@ import rehypeRaw from "rehype-raw";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import remarkGfm from 'remark-gfm';
+import remarkToc from 'remark-toc'
+import { visit } from "unist-util-visit";
+
 import 'katex/dist/katex.min.css'; // Import KaTeX styles
 
+
+const modifyTocLinks = () => {
+  return (tree) => {
+    visit(tree, "link", (node) => {
+      // Replace internal anchor links (#heading-id) with external URLs
+      // detect local and production environments
+      const isLocal = window.location.hostname === "localhost"
+      const baseUrl = isLocal ? "http://localhost:3000" : "https://davidk.tech"
+      // get current url
+      const currentUrl = window.location.href
+      if (node.url.startsWith("#")) {
+        node.url = `${currentUrl}${node.url}`
+      }
+    });
+  };
+};
 
 function ProjectDetails() {
   const { projectId } = useParams();
@@ -33,7 +52,18 @@ function ProjectDetails() {
     <div className="project-details">
       <ReactMarkdown 
         rehypePlugins={[rehypeRaw, rehypeKatex]}
-        remarkPlugins={[remarkMath, remarkGfm]}
+        remarkPlugins={[
+          remarkMath,
+          remarkGfm,
+          [
+            remarkToc,
+            {
+              tight: true,
+              maxDepth: 5,
+            },
+          ],
+          modifyTocLinks, // Apply the custom plugin
+        ]}
         remarkRehypeOptions={{ passThrough: ['link'] }}
         components={{
           a: props => {

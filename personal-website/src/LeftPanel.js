@@ -11,20 +11,20 @@ function LeftPanel() {
       </span>
       <div className="left-panel-links">
         <a
-          href="https://github.com/yourprofile"
+          href="https://github.com/KhachDavid"
           target="_blank"
           rel="noreferrer"
         >
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/yourprofile"
+          href="https://linkedin.com/in/davidhimself"
           target="_blank"
           rel="noreferrer"
         >
           LinkedIn
         </a>
-        <a href="mailto:youremail@example.com">Email</a>
+        <a href="mailto:khachatryandavid1@gmail.com">Email</a>
       </div>
     </div>
   );

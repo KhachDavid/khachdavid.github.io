@@ -23,11 +23,14 @@ function App() {
         "With thousands of daily users and a 5-star rating, EL Tracker offers an efficient and reliable way to navigate Chicago’s transit system. EL Tracker is also the only app designed to work seamlessly for blind users, ensuring they can navigate the city with confidence and ease.",
       tags: [
         "Swift",
+        "Kotlin",
         "iOS Development",
         "Django",
         "Node.js",
         "Linux",
         "Git",
+        "Docker",
+        "SQL",
         "CI/CD",
       ],
     },
@@ -37,7 +40,7 @@ function App() {
       gif: kuka_gif,
       description:
         "A software that plans a trajectory for the end effector, conducts odometry while the robot moves, and handles feedback control to ensure the robot reaches its goal.",
-      tags: ["Controls", "CoppeliaSim", "KUKA youBot"],
+      tags: ["Controls", "CoppeliaSim", "KUKA youBot", "Matrix Transformations"],
     },
     {
       id: 3,
@@ -45,7 +48,7 @@ function App() {
       gif: pen_gif,
       description:
         "The Pen Thief project utilizes a Realsense Camera D435i and OpenCV to track the location of a pen. It utilizes an initial calibration process to command the arm to move towards the pen.",
-      tags: ["ROS2", "OpenCV", "Camera Calibration", "Python"],
+      tags: ["ROS2", "OpenCV", "Camera Calibration", "Python", "RGB-D Camera"],
     },
     {
       id: 4,
@@ -56,6 +59,7 @@ function App() {
       tags: [
         "Biomimicry",
         "CNN",
+        "PyTorch",
         "Gabor Filters",
         "Simulation",
         "Three.js",
@@ -67,7 +71,7 @@ function App() {
       title: "Hand Crank Generator",
       gif: generator_gif,
       description: "A demonstration of a hand crank generator powering an LED light.",
-      tags: ["Electronics", "Mechanical", "Energy Generation", "CAD Design"],
+      tags: ["Electronics", "Mechanical Design", "CAD Design"],
     },
   ];
 
