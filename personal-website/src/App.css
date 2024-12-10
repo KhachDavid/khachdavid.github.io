@@ -197,6 +197,7 @@ footer {
 
   .left-panel {
     border-right: none;
+    position: relative;
   }
 
   .central-content {
