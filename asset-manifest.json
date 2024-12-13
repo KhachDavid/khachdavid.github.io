@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a369d95a.css",
-    "main.js": "/static/js/main.66d23b91.js",
+    "main.js": "/static/js/main.879bc7eb.js",
     "static/js/468.e62e642b.chunk.js": "/static/js/468.e62e642b.chunk.js",
     "static/js/169.5a0619d2.chunk.js": "/static/js/169.5a0619d2.chunk.js",
     "static/js/930.cc89bd5f.chunk.js": "/static/js/930.cc89bd5f.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/el_tracker.gif": "/static/media/el_tracker.05549220570b5bdecd97.gif",
     "static/media/kuka_cropped.gif": "/static/media/kuka_cropped.11e7ee52c211362e4556.gif",
     "static/media/dice_animation.gif": "/static/media/dice_animation.09bdf435bb8d76bda1a1.gif",
-    "static/media/David_Khachatryan_Resume.pdf": "/static/media/David_Khachatryan_Resume.f4fe94628f4e9ac7c026.pdf",
+    "static/media/David_Khachatryan_Resume.pdf": "/static/media/David_Khachatryan_Resume.5ed908d8084d145319d9.pdf",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
@@ -85,11 +85,11 @@
     "static/media/3.md": "/static/media/3.f1cdf574445786aa5838.md",
     "index.html": "/index.html",
     "main.a369d95a.css.map": "/static/css/main.a369d95a.css.map",
-    "main.66d23b91.js.map": "/static/js/main.66d23b91.js.map",
+    "main.879bc7eb.js.map": "/static/js/main.879bc7eb.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a369d95a.css",
-    "static/js/main.66d23b91.js"
+    "static/js/main.879bc7eb.js"
   ]
 }
