@@ -3,6 +3,7 @@ import kuka_gif from "./kuka_cropped.gif";
 import generator_gif from "./generator_demo_cropped.gif";
 import el_tracker from "./el_tracker.gif";
 import scallop_eyes from "./sclp.gif";
+import dice_animation from "./dice_animation.gif";
 import { Route, Routes, Link } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import About from "./About";
@@ -68,6 +69,13 @@ function App() {
     },
     {
       id: 5,
+      title: "2D Dice in a box simulation",
+      gif: dice_animation,
+      description: "Using Lagrangian dynamics and impacts to simulate dice in a box from scratch.",
+      tags: ["Python", "Sympy", "Physics", "Simulation", "Lagrangian Dynamics"],
+    },
+    {
+      id: 6,
       title: "Hand Crank Generator",
       gif: generator_gif,
       description: "A demonstration of a hand crank generator powering an LED light.",
