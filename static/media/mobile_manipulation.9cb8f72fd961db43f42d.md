@@ -1,6 +1,6 @@
 # KUKA Robot Simulation
 
-<img src="https://github.com/KhachDavid/khachdavid.github.io/blob/main/personal-website/src/kuka.gif?raw=true" height="200" width="300">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/kuka.gif" height="200" width="300">
 </img>
 
 ## Description
