@@ -13,7 +13,7 @@ function Footer() {
           GitHub
         </a>
         {' | '}
-        <a href="mailto:khachatryandavid1@gmail.com">
+        <a href="mailto:davidkh@u.northwestern.edu">
           Email
         </a>
       </p>

@@ -1,9 +1,9 @@
-import pen_gif from "./pen_thief_demo_cropped.gif";
-import kuka_gif from "./kuka_cropped.gif";
+import pen_gif from "./assets/pen_demo.gif";
+import kuka_gif from "./assets/kuka.gif";
 import generator_gif from "./generator_demo_cropped.gif";
 import el_tracker from "./el_tracker.gif";
-import scallop_eyes from "./sclp.gif";
-import dice_animation from "./dice_animation.gif";
+import scallop_eyes from "./assets/scallop_sim.gif";
+import dice_animation from "./assets/dice_animation.gif";
 import { Route, Routes, Link } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import About from "./About";
@@ -17,7 +17,7 @@ import "./App.css";
 function App() {
   const galleryItems = [
     {
-      id: 1,
+      id: "el_tracker",
       title: "Founder of EL Tracker",
       gif: el_tracker,
       description:
@@ -36,7 +36,7 @@ function App() {
       ],
     },
     {
-      id: 2,
+      id: "mobile_manipulation",
       title: "Mobile Manipulation with KUKA youBot",
       gif: kuka_gif,
       description:
@@ -44,7 +44,7 @@ function App() {
       tags: ["Controls", "CoppeliaSim", "KUKA youBot", "Matrix Transformations"],
     },
     {
-      id: 3,
+      id: "pen_thief",
       title: "'Pen Thief' Robot",
       gif: pen_gif,
       description:
@@ -52,7 +52,7 @@ function App() {
       tags: ["ROS2", "OpenCV", "Camera Calibration", "Python", "RGB-D Camera"],
     },
     {
-      id: 4,
+      id: "scallop_eyes",
       title: "Simulating Scallop Eyes",
       gif: scallop_eyes,
       description:
@@ -68,14 +68,14 @@ function App() {
       ],
     },
     {
-      id: 5,
+      id: "dice_simulation",
       title: "2D Dice in a box simulation",
       gif: dice_animation,
       description: "Using Lagrangian dynamics and impacts to simulate dice in a box from scratch.",
       tags: ["Python", "Sympy", "Physics", "Simulation", "Lagrangian Dynamics"],
     },
     {
-      id: 6,
+      id: "generator",
       title: "Hand Crank Generator",
       gif: generator_gif,
       description: "A demonstration of a hand crank generator powering an LED light.",

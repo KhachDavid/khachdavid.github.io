@@ -1,4 +1,4 @@
-import headshot from "./headshot.png";
+import headshot from "./headshot-low-quality.png";
 
 function LeftPanel() {
   return (
@@ -24,7 +24,7 @@ function LeftPanel() {
         >
           LinkedIn
         </a>
-        <a href="mailto:khachatryandavid1@gmail.com">Email</a>
+        <a href="mailto:davidkh@u.northwestern.edu">Email</a>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ node_modules/
 build/
 dist/
 out/
-
+vdo2gif/
 # OS-specific files
 .DS_Store
 Thumbs.db
