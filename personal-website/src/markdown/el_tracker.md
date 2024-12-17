@@ -30,8 +30,9 @@ EL Tracker’s interface mirrors the arrival information seen on the screens at 
 - "Pulls directly from the CTA system... If the CTA worked as well as this app, Chicago would have the best transit system in America."
 - "Very useful, became my everyday companion."
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/sleek%20display.png" width="80%" height="20%">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/sleek%20display.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 
 ## iOS Widgets
 Customizable widgets allow users to add their home, work, school, or nearby station for easy access to real-time arrivals directly on the home screen.
@@ -39,8 +40,9 @@ Customizable widgets allow users to add their home, work, school, or nearby stat
 ### What Users Say:
 - "Widgets are PHENOMENAL... going to save lots of time fumbling through the clunky Ventra app."
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/widget.png" width="80%" height="20%">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/widget.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 
 ## Siri Compatibility for Low Vision Users
 EL Tracker is committed to accessibility with features like text-to-voice and full Siri compatibility, making it easy for low-vision users to access critical transit information.
@@ -48,14 +50,16 @@ EL Tracker is committed to accessibility with features like text-to-voice and fu
 ### What Users Say:
 - "Thoughtful and considered 'extra' features... This really is the app that CTA should have built."
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/siri.png" width="80%" height="20%">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/siri.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 
 ## Language Support
 Catering to Chicago’s multilingual community, EL Tracker supports a variety of languages, including Spanish and Polish, ensuring everyone can access transit information in their preferred language.
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/languages%20(1).png" width="80%" height="20%">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/languages%20(1).png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 
 ## Integrated Maps
 Track CTA trains in real time with an integrated map. EL Tracker shows live locations, run numbers, and nearby station arrivals, making it easy to plan your journey on the go.
@@ -63,8 +67,9 @@ Track CTA trains in real time with an integrated map. EL Tracker shows live loca
 ### What Users Say:
 - "The integrated map is super useful... Been using since day one and haven’t missed a train since."
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/integrated%20map.png" width="50%" height="50%">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/integrated%20map.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 
 ## Customizable Favorites and Push Notifications
 Select favorite stations and receive relevant alerts. EL Tracker also offers push notifications for elevator outages, enhancing accessibility for all users.
@@ -72,8 +77,9 @@ Select favorite stations and receive relevant alerts. EL Tracker also offers pus
 ### What Users Say:
 - "This is so much quicker to use than the Transit Stop app I've been using."
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/alerts.png" width="80%" height="20%">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/el_tracker/alerts.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 
 ## Smartwalk
 SmartWalk feature calculates your walking time to the nearest station, ensuring that only relevant arrival data is displayed based on your walk time.

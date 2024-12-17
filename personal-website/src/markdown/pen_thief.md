@@ -2,7 +2,9 @@
 
 A robotic arm project using computer vision to track and retrieve a pen from its location.
 
-<img src="https://github.com/KhachDavid/khachdavid.github.io/blob/main/personal-website/src/pen_thief_demo.gif?raw=true" height="200" width="300">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/pen_demo.gif" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 </img>
 
 Explore the project on [GitHub](https://github.com/KhachDavid/pen-challenge/tree/main).

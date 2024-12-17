@@ -3,21 +3,10 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 60px;
 }
 
-.resume-actions {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.resume-iframe {
-  width: 100%;
-  height: 600px;
-  border: 1px solid #ccc;
-  margin-top: 20px;
+.resume-header {
+  margin-bottom: 20px;
 }
 
 .download-button {
@@ -35,29 +24,47 @@
   background-color: #0056b3;
 }
 
-/* Responsive adjustments for mobile */
+.resume-viewer {
+  overflow: hidden;
+}
+
+/* Responsive adjustments for tablets and smaller screens */
 @media (max-width: 768px) {
-.resume-iframe {
-  width: 100%;
-  height: 400px; /* Reduce iframe height for smaller screens */
+  .resume-page {
+    padding: 15px;
+  }
+
+  .resume-header {
+    margin-bottom: 15px;
+  }
+
+  .download-button {
+    width: 100%; /* Full-width button for smaller screens */
+    padding: 12px;
+    font-size: 1rem; /* Slightly larger text for easier readability */
+  }
+
 }
 
-.resume-page {
-  padding: 10px; /* Reduce padding for smaller devices */
-}
-
-.download-button {
-  width: 80%; /* Make button span more space for easier access */
-  text-align: center;
-}
-}
-
+/* Further adjustments for very small screens (phones) */
 @media (max-width: 480px) {
-.resume-iframe {
-  height: 300px; /* Further reduce height for very small screens */
+  .resume-page {
+    padding: 10px;
+  }
+
+  .download-button {
+    padding: 10px;
+    width: 100%; /* Full-width button for smaller screens */
+    font-size: 0.9rem; /* Smaller text for compact view */
+  }
+
+  .resume-viewer {
+    height: calc(100vh - 400px); /* Further adjust height for smaller devices */
+  }
 }
 
-.download-button {
-  width: 100%; /* Make button full-width for small devices */
-}
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 80% !important;
+  height: 100% !important;
 }

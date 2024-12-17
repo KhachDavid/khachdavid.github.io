@@ -1,7 +1,7 @@
 # 2D Dice in a box simulation
----
+
 </br>
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/dice_animation.gif">
+<img height="50%" width="50%" src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/dice_animation.gif">
 </img>
 <p style="
     font-size: 0.8em;
@@ -20,7 +20,7 @@ Euler-Lagrange equations are used to simulate the motion of a dice in a box. The
 
 ## Euler-Lagrange Equations
 
----
+
 
 The equations of Euler-Lagrange are given by:
 
@@ -39,7 +39,7 @@ $q = [x_{box}, y_{box}, \theta_{box}, x_{dice}, y_{dice}, \theta_{dice}]$
 </br>
 
 ## Forces in this system
----
+
 
 The forces acting on the system are defined as follows:
 </br>
@@ -77,21 +77,21 @@ $
 </br>
 
 ## Simulation
----
+
 
 The simulation of the equations of motion gives the following configurations of the dice and the box:
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/box_position.png">
+<img height="50%" width="50%" src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/box_position.png">
 </img>
 
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/box_velocity.png">
+<img height="50%" width="50%" src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/box_velocity.png">
 </img>
 
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/jack_position.png">
+<img height="50%" width="50%" src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/jack_position.png">
 </img>
 
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/jack_velocity.png">
+<img height="50%" width="50%" src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/jack_velocity.png">
 </img>

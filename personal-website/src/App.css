@@ -67,7 +67,7 @@ body {
 .left-panel {
   flex: 0 0 300px; /* Fixed width for the left panel */
   padding: 2rem 1rem;
-  height: 100vh; /* Full height to match the viewport */
+  height: 80vh; /* Full height to match the viewport */
   width: calc(300px - 2rem); /* Adjust for padding */
   position: sticky; /* Stick to the viewport */
   top: 0; /* Start sticking from the top of the viewport */

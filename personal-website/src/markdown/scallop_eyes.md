@@ -3,7 +3,9 @@ Check the simulation of the scallop eye [here](https://davidk.tech/scallops).
 </br>
 </br>
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/sclp.gif" height="60%" width="60%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/sclp.gif" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -16,7 +18,9 @@ Scallops possess a unique and fascinating visual system, one of the most intrica
 
 ### Photonic Nanospheres and Blue Light
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/bay_vs_sea_scallop.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/bay_vs_sea_scallop.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -30,7 +34,9 @@ One fascinating feature of scallop eyes is the presence of photonic nanospheres 
 
 ### The Eyes: Structure and Function
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/eye_diagram.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/eye_diagram.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -71,7 +77,9 @@ Deeper within the eye, the proximal retina is specialized to detect peripheral m
 **The Mirror (v):**
 At the back of the scallop's eye, the mirror is the defining feature of this optical system. Its structure is fascinating, comprising tessellated, segmented plates that resemble the design of high-precision telescopes. These plates are perfectly arranged to reflect light back onto the retinas. The red box in the image marks the center of the mirror, which reflects incoming light with high efficiency.
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/crystal_layer.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/crystal_layer.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -84,7 +92,9 @@ What makes this mirror truly special is its ability to selectively reflect blue-
 
 </br>
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/segmented_mirrors.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/segmented_mirrors.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -98,7 +108,9 @@ On closer inspection, the tessellations of the mirror reveal a complex, highly o
 
 ### Reflectivity and Light Spectrum
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/reflectivity_spectrum.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/reflectivity_spectrum.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -112,7 +124,9 @@ To measure the reflectivity of the mirror in the scallop's eye, Palmer (2017) co
 
 ### Side Note: Is Kepler wrong?
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/einstein_tile.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/einstein_tile.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -127,7 +141,9 @@ When explaining the tiling of the mirror, Palmer (2017) cited Kepler's 1619 pape
 
 ### Visual Sensitivity: The Retina’s Role
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/zero_frequency_intensity.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/zero_frequency_intensity.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -141,7 +157,9 @@ The scallop’s eye has two retinas: the proximal and distal retinas. The proxim
 
 ### Checkerboard Stimuli and Retinal Response
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/checkerboard.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/checkerboard.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -158,7 +176,9 @@ I encourage you to confirm this visually. Make sure you see how within the inner
 
 ### Modulation Transfer Function
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/modulation_transfer_function.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/modulation_transfer_function.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -171,7 +191,9 @@ Palmer 2017. The image-forming mirror in the eye of the scallop.
 MTFs describe the contrast reduction as spatial frequency increases. Zero angular frequency here is just the absolute zero-frequency intensity that we looked at previously. Here we have the graph of the red dot, yellow dot, and the cyan dot. Yellow dot is in the peripheral region where the best image on the proximal retina is formed. You can see for the cyan dot the decline is much sharper in the proximal retina than in the distal. This is even more apparent for the red dot. In contrary, proximal retina has a much higher 50% cut off frequency than the distal retina.
 
 ### Behavioral Implications and Tentacle Use
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/scallop_tentacles.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/scallop_tentacles.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -184,7 +206,9 @@ Chappell 2021. Panoramic spatial vision in the bay scallop Argopecten irradians
 Scallops are known for their ability to swim, a behavior that is closely tied to their vision system. When exposed to visual stimuli, such as striped images, scallops exhibit movement in their tentacles, indicating that they use vision to process and react to environmental changes [4]. The tentacles act as an extension of the visual system, providing the scallop with more information about its surroundings, especially for tasks like detecting movement or tracking objects. The tentacles are equipped with chemical information sensors and can detect between predators, such as sea stars, and non-predators, such as sea urchins.
 </br>
 </br>
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/tentacle_extension_distribution.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/tentacle_extension_distribution.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -203,7 +227,9 @@ The scallop's intraocular vision, or the comparison between the photoreceptors i
 
 ### Making Distributed Visual Systems: Traditional Machine Learning
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/bg_subtraction.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/bg_subtraction.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -228,7 +254,9 @@ The scallop's brain then uses the features extracted from their tentacles to ver
 
 ### Deep Learning based approaches
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/fusion_algorithm.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/fusion_algorithm.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -246,7 +274,9 @@ The above diagram describes the algorithm proposed by Yousefi et al for tracking
 
 Below is an image showing the multi camera system detecting people in the same scene:
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/multi_camera_fov.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/multi_camera_fov.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -266,7 +296,9 @@ This proposed algorithm achieved an F1 score of 0.9706 in hazy daytime vision, i
 While the scallop's visual system is far more complex than the algorithms used in computer vision, the principles of integrating multiple sources of information to create a comprehensive view of the environment are shared between the two systems. By studying the scallop's eye and its unique optical design, we can gain insights into how to optimize computer vision systems for real-world applications.
 </br>
 </br>
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/F_score_hazy.png" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/F_score_hazy.png" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
 <p style="
     font-size: 0.8em;
     font-style: italic;

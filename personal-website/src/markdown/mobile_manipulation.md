@@ -1,7 +1,17 @@
 # KUKA Robot Simulation
 
-<img src="https://github.com/KhachDavid/khachdavid.github.io/blob/main/personal-website/src/kuka.gif?raw=true" height="200" width="300">
-</img>
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/kuka.gif" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
+<p style="
+    font-size: 0.8em;
+    font-style: italic;
+    color: #777;
+">
+A simulation of a KUKA youBot robot manipulating a cube in CoppeliaSim.
+</p>
+</br>
+
 
 ## Description
 

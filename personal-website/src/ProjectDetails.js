@@ -4,26 +4,23 @@ import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "./ProjectDetails.css";
 import rehypeRaw from "rehype-raw";
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
-import remarkGfm from 'remark-gfm';
-import remarkToc from 'remark-toc'
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import remarkGfm from "remark-gfm";
+import remarkToc from "remark-toc";
 import { visit } from "unist-util-visit";
 
-import 'katex/dist/katex.min.css'; // Import KaTeX styles
-
+import "katex/dist/katex.min.css"; // Import KaTeX styles
 
 const modifyTocLinks = () => {
   return (tree) => {
     visit(tree, "link", (node) => {
       // Replace internal anchor links (#heading-id) with external URLs
       // detect local and production environments
-      const isLocal = window.location.hostname === "localhost"
-      const baseUrl = isLocal ? "http://localhost:3000" : "https://davidk.tech"
       // get current url
-      const currentUrl = window.location.href
+      const currentUrl = window.location.href;
       if (node.url.startsWith("#")) {
-        node.url = `${currentUrl}${node.url}`
+        node.url = `${currentUrl}${node.url}`;
       }
     });
   };
@@ -42,7 +39,9 @@ function ProjectDetails() {
         );
         setContent(markdownContent);
       } catch (error) {
-        setContent("# Project Not Found\nThe requested project could not be found.");
+        setContent(
+          "# Project Not Found\nThe requested project could not be found."
+        );
       }
     };
     loadMarkdown();
@@ -50,7 +49,7 @@ function ProjectDetails() {
 
   return (
     <div className="project-details">
-      <ReactMarkdown 
+      <ReactMarkdown
         rehypePlugins={[rehypeRaw, rehypeKatex]}
         remarkPlugins={[
           remarkMath,
@@ -64,14 +63,16 @@ function ProjectDetails() {
           ],
           modifyTocLinks, // Apply the custom plugin
         ]}
-        remarkRehypeOptions={{ passThrough: ['link'] }}
+        remarkRehypeOptions={{ passThrough: ["link"] }}
         components={{
-          a: props => {
-                        // Check if the link is a local anchor link
+          a: (props) => {
+            // Check if the link is a local anchor link
             if (props?.href?.startsWith("#inpage-")) {
               return (
                 <a
                   href={props.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={(e) => {
                     e.preventDefault();
                     const target = document.querySelector(props.href);
@@ -86,13 +87,21 @@ function ProjectDetails() {
             }
 
             // For all other links (e.g., external URLs), render as normal
-            return <a href={props.href}>{props.children}</a>;
+            return (
+              <a href={props.href} target="_blank" rel="noopener noreferrer">
+                {props.children}
+              </a>
+            );
           },
           h1: ({ children }) => (
-            <h1 id={children[0].toLowerCase().replace(/\s+/g, "-")}>{children}</h1>
+            <h1 id={children[0].toLowerCase().replace(/\s+/g, "-")}>
+              {children}
+            </h1>
           ),
           h2: ({ children }) => (
-            <h2 id={children[0].toLowerCase().replace(/\s+/g, "-")}>{children}</h2>
+            <h2 id={children[0].toLowerCase().replace(/\s+/g, "-")}>
+              {children}
+            </h2>
           ),
         }}
       >
