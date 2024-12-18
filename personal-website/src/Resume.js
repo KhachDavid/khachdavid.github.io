@@ -34,7 +34,6 @@ function Resume() {
       {/* PDF Viewer */}
       <div
         className="resume-viewer"
-        style={{ cursor: "pointer" }}
       >
         <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess}>
           <Page
