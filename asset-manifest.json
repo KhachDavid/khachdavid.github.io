@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.043840b3.css",
-    "main.js": "/static/js/main.86f9049f.js",
+    "main.js": "/static/js/main.6c0a67be.js",
     "static/js/616.9f37709a.chunk.js": "/static/js/616.9f37709a.chunk.js",
     "static/js/265.35533080.chunk.js": "/static/js/265.35533080.chunk.js",
     "static/js/134.f759b0f7.chunk.js": "/static/js/134.f759b0f7.chunk.js",
     "static/js/817.17438c71.chunk.js": "/static/js/817.17438c71.chunk.js",
     "static/js/867.b0a19dc1.chunk.js": "/static/js/867.b0a19dc1.chunk.js",
     "static/js/470.27e8029b.chunk.js": "/static/js/470.27e8029b.chunk.js",
-    "static/js/945.0d12c84f.chunk.js": "/static/js/945.0d12c84f.chunk.js",
+    "static/js/945.f28fe1b5.chunk.js": "/static/js/945.f28fe1b5.chunk.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/generator.gif": "/static/media/generator.7674c6e2671b2800573c.gif",
     "static/media/whack_a_mole.gif": "/static/media/whack_a_mole.558d8dc33d358a05d3ac.gif",
@@ -71,7 +71,7 @@
     "static/media/KaTeX_Caligraphic-Bold.woff": "/static/media/KaTeX_Caligraphic-Bold.d757c535a2e5902f1325.woff",
     "static/media/KaTeX_Caligraphic-Regular.woff": "/static/media/KaTeX_Caligraphic-Regular.db074fa22cf224af93d7.woff",
     "static/media/KaTeX_Size3-Regular.ttf": "/static/media/KaTeX_Size3-Regular.8d6b6822586eea3d3b20.ttf",
-    "static/media/whack_a_mole.md": "/static/media/whack_a_mole.beac16996f2edd879867.md",
+    "static/media/whack_a_mole.md": "/static/media/whack_a_mole.e55ef6ae7193a02fe4f0.md",
     "static/media/KaTeX_Caligraphic-Bold.woff2": "/static/media/KaTeX_Caligraphic-Bold.a1abf90dfd72792a577a.woff2",
     "static/media/KaTeX_Caligraphic-Regular.woff2": "/static/media/KaTeX_Caligraphic-Regular.d6484fce1ef428d5bd94.woff2",
     "static/media/KaTeX_Size1-Regular.woff": "/static/media/KaTeX_Size1-Regular.0108e89c9003e8c14ea3.woff",
@@ -88,11 +88,11 @@
     "static/media/pen_thief.md": "/static/media/pen_thief.6632a33e24c1cd89ceae.md",
     "index.html": "/index.html",
     "main.043840b3.css.map": "/static/css/main.043840b3.css.map",
-    "main.86f9049f.js.map": "/static/js/main.86f9049f.js.map",
+    "main.6c0a67be.js.map": "/static/js/main.6c0a67be.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.043840b3.css",
-    "static/js/main.86f9049f.js"
+    "static/js/main.6c0a67be.js"
   ]
 }
