@@ -1,7 +1,7 @@
 import pen_gif from "./assets/pen_demo.gif";
 import kuka_gif from "./assets/kuka.gif";
-import generator_gif from "./generator_demo_cropped.gif";
-import el_tracker from "./el_tracker.gif";
+import generator_gif from "./assets/generator.gif";
+import el_tracker from "./assets/el_tracker.JPEG";
 import scallop_eyes from "./assets/scallop_sim.gif";
 import dice_animation from "./assets/dice_animation.gif";
 import { Route, Routes, Link } from "react-router-dom";

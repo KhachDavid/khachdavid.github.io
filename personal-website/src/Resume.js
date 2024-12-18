@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
@@ -9,9 +9,6 @@ import resumePDF from "./David_Khachatryan_Resume.pdf"; // Path to your static P
 import "./Resume.css";
 
 function Resume() {
-  const [pageNumber, setPageNumber] = useState(1); // Current page number
-  const [zoomLevel, setZoomLevel] = useState(1.0); // Zoom level
-  const [isModalOpen, setModalOpen] = useState(false); // Modal for "maximize" version
   const [width, setWidth] = useState(window.innerWidth); // Track viewport width
 
   useEffect(() => {
@@ -23,11 +20,6 @@ function Resume() {
       setWidth(window.innerWidth);
     };
 
-    if (isModalOpen) {
-      // Dynamically adjust zoom level when the modal is open and screen resizes
-      adjustZoomLevel(window.innerWidth);
-    }
-
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize); // Cleanup
@@ -37,29 +29,12 @@ function Resume() {
     // Add functionality if needed, such as setting the total number of pages
   }
 
-  const openModal = () => {
-    adjustZoomLevel(width); // Dynamically set the zoom level based on screen size
-    setModalOpen(true); // Open the modal for full-screen-like view
-  };
-
-   // Adjust zoom level based on screen size
-   const adjustZoomLevel = (width) => {
-    if (width < 768) {
-      setZoomLevel(0.5); // Smaller zoom for small screens
-    } else if (width < 992) {
-      setZoomLevel(1.2); // Default zoom for medium screens
-    } else {
-      setZoomLevel(1.5); // Larger zoom for larger screens
-    }
-  };
-
   return (
     <div className="resume-page">
       {/* PDF Viewer */}
       <div
         className="resume-viewer"
         style={{ cursor: "pointer" }}
-        onClick={openModal} // Open modal on click
       >
         <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess}>
           <Page
@@ -76,7 +51,6 @@ function Resume() {
                 ? width * 0.63
                 : Math.min(750, width * 0.9) // Large screens
             }
-            pageNumber={pageNumber}
           />
         </Document>
       </div>

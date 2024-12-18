@@ -8,7 +8,9 @@ The hand crank generator is a device that converts mechanical energy into electr
 
 ## Assembly
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/generator_setup.jpg" height="50%" width="50%">
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/generator_setup.jpg"  style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }">
 <p style="
     font-size: 0.8em;
     font-style: italic;
@@ -70,6 +72,15 @@ Winding the coils was quite possibly the toughest part of this.
     - Verify that the generator produces a stable DC output.
 
 The hand crank generator is now ready for use. Turn the crank handle to generate electricity and power small electronic devices.
+
+The 4 serial and 2 parallel coil configuration was chosen to maximize the output voltage and current of the generator. This configuration allows for higher power output while maintaining a manageable coil size and complexity.
+
+It ended up generating around 2.5 volts at 0.5 amps, which is enough to power small electronics like LEDs or charge a phone with a boost converter.
+
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/IMG_9290.JPEG"  style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }">
+
 
 ## 3D Printed Parts
 
