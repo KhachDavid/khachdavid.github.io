@@ -1,1 +1,25 @@
 https://stackoverflow.com/a/74596569
+
+## For MAC
+
+brew install pkg-config cairo pango libpng jpeg giflib librsvg
+
+## For Linux
+
+sudo apt-get install -y libcairo2 libcairo2-dev libpango1.0-dev libpixman-1-dev
+
+## General
+
+Make sure to be on nvm 18. If having dependency issues:
+
+# run this carefully
+rm -rf node_modules
+
+npm i 
+npm cache clean --force
+nvm install 18
+nvm use 18
+npm rebuild canvas
+npm install --legacy-peer-deps
+node -e "require('canvas')"
+npm i

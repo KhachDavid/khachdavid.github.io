@@ -1,11 +1,8 @@
-# Franka Whack-a-mole ME 495 Final Project
-Authors: Ben Benyamin, David Khachatryan, Haodong Wang, Pushkar Dave, Sairam Umakanth
+# Franka Panda Whack-a-Mole
 
-## Demo
-
-Note: This video is lengthy and could not be embedded directly into the README. Please click on the image below to view the video.
-
-[![Video Title](https://img.youtube.com/vi/GG81r0z8W5s/0.jpg)](https://youtu.be/GG81r0z8W5s?si=jnvBzOhuwIO57tmf)
+<iframe style="width: 100%; max-width: 600px; height: auto; min-height: 400px; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" src="https://www.youtube.com/embed/GG81r0z8W5s?si=DBgZmnv9W0fnefaN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Description
 This package enables the Franka Emika Panda robot play whack-a-mole on a custom whack-a-mole game. The 
@@ -17,7 +14,19 @@ attachment, the IDE code for which is also provided within this repository. The 
 operated using MoveIt wrapper API created by our team 
 (https://github.com/ME495-EmbeddedSystems/homework-3-group-4) and to use whack-a-mole API, 
 the Moveit wrapper API must be cloned in the same workspace as the whack-a-mole API. The 
-package also contains Arduino IDE code to program a DIY whack-a-mole. 
+package also contains Arduino IDE code to program a DIY whack-a-mole.
+
+</br>
+
+## RViz Demonstration
+<video controls width="100%" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }">
+  <source src="https://github.com/user-attachments/assets/f0267b5a-490e-4511-bcb5-cd6129108a66" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</br>
 
 ## QuickStart
 1. Install dependencies: `rosdep install --from-paths src --ignore-src -r -y`
@@ -33,6 +42,8 @@ package also contains Arduino IDE code to program a DIY whack-a-mole.
 10. [OPTIONAL] Use `ros2 service call /go_home std_srvs/srv/Empty` to send robot to home configuration
 11. Run `ros2 service call /call_play std_srvs/srv/Empty` to make the robot play the game and enjoy!
 
+</br>
+
 ## Nodes and Launchfiles
 ### Nodes:
 - `comm_node`: interfaces between other ROS nodes and servo/hammer for actuation of hammer
@@ -45,6 +56,8 @@ package also contains Arduino IDE code to program a DIY whack-a-mole.
 - `camera.launch.py`: launches `camera_node` and `realsense2_camera` for color detection, and also launches rviz files for physical setup
 - `planner_swing.launch.xml`: launches rest of nodes created in package, `apriltag_node` required for april tag detection, and includes `camra.launch.py` and `object_mover.launch.py` in `object_mover`, the MoveIt API package
 
+</br>
+
 ## System Architecture 
 ### Architecture Description:
 
@@ -52,14 +65,39 @@ The `camera_node` subcsribes topics published by the realsense camera and detect
 
 ### RQT Graph:
 
-![rqt_graph](https://github.com/user-attachments/assets/d69f05cb-da2e-4601-9f59-a3a448614af6)
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/tf_svg.png" style="width: 100%; max-width: 1000px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
+<p style="
+    font-size: 0.8em;
+    font-style: italic;
+    color: #777;
+">
+RQT Graph of whack_a_mole package
+</p>
+</br>
+
 
 ### TF Tree:
 
-![tf2_view_frames](https://github.com/user-attachments/assets/de01adff-58a2-418e-9448-719bc31216c0)
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/tf_tree.png" style="width: 100%; max-width: 1000px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
+<p style="
+    font-size: 0.8em;
+    font-style: italic;
+    color: #777;
+">
+TF (Transformation) tree of whack_a_mole package
+</p>
+</br>
 
+## Group
 
-## Video Demonstrations
-### Rviz 
-[whack-a-mole_rvizz.webm](https://github.com/user-attachments/assets/669d5b71-3139-480c-ba2a-61dcc3d9fc77)
+This project was developed as a group for the final project of ME 495: Embedded Systems in Robotics class.
 
+Group Members: Ben Benyamin, David Khachatryan, Haodong Wang, Pushkar Dave, Sairam Umakanth
+
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/whack_a_mole_group.jpeg" style="width: 100%; max-width: 1000px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
