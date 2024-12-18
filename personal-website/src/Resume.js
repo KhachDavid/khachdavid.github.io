@@ -42,18 +42,6 @@ function Resume() {
     setModalOpen(true); // Open the modal for full-screen-like view
   };
 
-  const closeModal = () => {
-    setModalOpen(false); // Close the modal
-  };
-
-  const handleZoomIn = () => {
-    setZoomLevel((prevZoom) => Math.min(prevZoom + 0.2, 3.0)); // Limit zoom-in to 3.0x
-  };
-
-  const handleZoomOut = () => {
-    setZoomLevel((prevZoom) => Math.max(prevZoom - 0.2, 0.5)); // Limit zoom-out to 0.5x
-  };
-
    // Adjust zoom level based on screen size
    const adjustZoomLevel = (width) => {
     if (width < 768) {
@@ -102,43 +90,6 @@ function Resume() {
           Download Resume
         </a>
       </div>
-
-      {/* Modal for PDF Viewer */}
-      {isModalOpen && (
-  <div
-    className="modal"
-    onClick={(e) => {
-      if (e.target.className === "modal") {
-        closeModal();
-      }
-    }}
-  >
-    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-      {/* Close button */}
-      <button className="close-button" onClick={closeModal}>
-        ✖
-      </button>
-
-      {/* Zoom Controls */}
-      <div className="zoom-controls">
-        <button onClick={handleZoomOut} className="zoom-button">
-          Zoom Out
-        </button>
-        <button onClick={handleZoomIn} className="zoom-button">
-          Zoom In
-        </button>
-      </div>
-
-      {/* Modal PDF Viewer */}
-      <div className="full-screen-viewer">
-        <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess}>
-          <Page scale={zoomLevel} pageNumber={pageNumber} />
-        </Document>
-      </div>
-    </div>
-  </div>
-)}
-
     </div>
   );
 }

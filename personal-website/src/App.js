@@ -13,6 +13,7 @@ import ProjectDetails from "./ProjectDetails";
 import LeftPanel from "./LeftPanel";
 
 import "./App.css";
+import React from "react";
 
 function App() {
   const galleryItems = [
@@ -86,6 +87,10 @@ function App() {
   const handleDetails = (id) => {
     window.location.href = `#/project/${id}`;
   };
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>

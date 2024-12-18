@@ -31,6 +31,8 @@ function ProjectDetails() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const loadMarkdown = async () => {
       try {
         const response = await import(`./markdown/${projectId}.md`);
