@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "react-pdf/dist/esm/Page/TextLayer.css";
 
 import resumePDF from "./David_Khachatryan_Resume.pdf"; // Path to your static PDF file
 import "./Resume.css";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 function Resume() {
   const [width, setWidth] = useState(window.innerWidth); // Track viewport width
@@ -14,7 +14,7 @@ function Resume() {
   useEffect(() => {
     setWidth(window.innerWidth); // Update window width on resize
     // Set up the PDF Worker for optimal performance
-    pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs`;
+    //pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@4.4.168/build/pdf.worker.min.mjs`;
 
     const handleResize = () => {
       setWidth(window.innerWidth);
