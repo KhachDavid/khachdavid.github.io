@@ -38,6 +38,7 @@ function Resume() {
       >
         <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess}>
           <Page
+            pageNumber={1}
             width={
               width < 768
                 ? width * 0.82 // Small screens: 82% of the viewport width

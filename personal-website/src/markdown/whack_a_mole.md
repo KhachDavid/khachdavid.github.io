@@ -19,12 +19,9 @@ package also contains Arduino IDE code to program a DIY whack-a-mole.
 </br>
 
 ## RViz Demonstration
-<video controls width="100%" style="width: 100%; max-width: 600px; height: auto; 
+<iframe style="width: 100%; max-width: 600px; height: auto; min-height: 400px; 
             @media (min-width: 768px) { width: 80%; max-width: 800px; } 
-            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }">
-  <source src="https://github.com/user-attachments/assets/f0267b5a-490e-4511-bcb5-cd6129108a66" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" src="https://www.youtube.com/embed/fRU9_S9x6lQ?si=5OoGoDXK0FmZW7ZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </br>
 
