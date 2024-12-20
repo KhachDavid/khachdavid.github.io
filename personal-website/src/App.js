@@ -52,7 +52,7 @@ function App() {
       gif: kuka_gif,
       description:
         "A software that plans a trajectory for the end effector, conducts odometry while the robot moves, and handles feedback control to ensure the robot reaches its goal.",
-      tags: ["Controls", "CoppeliaSim", "KUKA youBot", "Matrix Transformations"],
+      tags: ["Controls", "CoppeliaSim", "Python","KUKA youBot", "Matrix Transformations"],
     },
     {
       id: "pen_thief",
