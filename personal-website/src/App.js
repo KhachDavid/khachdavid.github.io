@@ -4,7 +4,7 @@ import generator_gif from "./assets/generator.gif";
 import el_tracker from "./assets/el_tracker.JPEG";
 import scallop_eyes from "./assets/scallop_sim.gif";
 import dice_animation from "./assets/dice_animation.gif";
-import whack_a_mole from "./assets/whack_a_mole.gif";
+import whack_a_mole from "./assets/whack_a_mole_homepage.gif";
 import { Route, Routes, Link } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import About from "./About";
@@ -24,8 +24,17 @@ function App() {
       gif: whack_a_mole,
       description:
         "A 7-DOF robot arm Frank Panda plays Whack-a-Mole using computer vision to detect the moles and hit them.",
-      tags: ["ROS2", "OpenCV", "Python", "YOLO",
-      "MoveIt", "Robot Arm", "RGB-D Camera"],
+      tags: [
+        "ROS2", 
+        "OpenCV",
+        "Python",
+        "YOLO",
+        "Microcontrollers",
+        "MoveIt",
+        "Robot Arm",
+        "RGB-D Camera",
+
+      ],
     },
     {
       id: "el_tracker",
@@ -36,7 +45,7 @@ function App() {
       tags: [
         "Swift",
         "Kotlin",
-        "iOS Development",
+        "Mobile Development",
         "Django",
         "Node.js",
         "Linux",
@@ -44,6 +53,7 @@ function App() {
         "Docker",
         "SQL",
         "CI/CD",
+        "Community Engagement",
       ],
     },
     {
