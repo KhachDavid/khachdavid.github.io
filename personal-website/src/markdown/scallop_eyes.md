@@ -14,7 +14,7 @@ Check the simulation of the scallop eye [here](https://davidk.tech/scallops).
 </p>
 </br>
 
-Scallops possess a unique and fascinating visual system, one of the most intricate in the animal kingdom. Depending on the species, a scallop can have up to 200 eyes, which are distributed along the margins of their shell (valve), providing a panoramic view spanning approximately 270 degrees. They also interact with the outside world using their tentacles to receive tactile and chemical feedback.
+Scallops possess a unique visual system, one of the most intricate in the animal kingdom. Depending on the species, a scallop can have up to 200 eyes, which are distributed along the margins of their shell (valve), providing a panoramic view spanning approximately 270 degrees. They also interact with the outside world using their tentacles to receive tactile and chemical feedback.
 
 ### Photonic Nanospheres and Blue Light
 
@@ -30,7 +30,7 @@ Image (a) by David Liittschwager and Image (b) by Sönke Johnsen
 </p>
 </br>
 
-One fascinating feature of scallop eyes is the presence of photonic nanospheres within the epithelial cells that cover the eye [1]. These photonic nanospheres help enhance the eye's ability to capture and reflect light. This is especially advantageous for species like the Bay Scallop (Argopecten irradians), which live in shallow waters where blue light predominates. In contrast, Sea Scallops, which reside deeper in the ocean, do not have the same blue-reflecting guanine lens, as their environment doesn't require it.
+One feature of scallop eyes is the presence of photonic nanospheres within the epithelial cells that cover the eye [1]. These photonic nanospheres help enhance the eye's ability to capture and reflect light. This is especially advantageous for species like the Bay Scallop (Argopecten irradians), which live in shallow waters where blue light predominates. In contrast, Sea Scallops, which reside deeper in the ocean, do not have the same blue-reflecting guanine lens, as their environment doesn't require it.
 
 ### The Eyes: Structure and Function
 
@@ -75,7 +75,7 @@ Deeper within the eye, the proximal retina is specialized to detect peripheral m
 </br>
 
 **The Mirror (v):**
-At the back of the scallop's eye, the mirror is the defining feature of this optical system. Its structure is fascinating, comprising tessellated, segmented plates that resemble the design of high-precision telescopes. These plates are perfectly arranged to reflect light back onto the retinas. The red box in the image marks the center of the mirror, which reflects incoming light with high efficiency.
+At the back of the scallop's eye, the mirror is the defining feature of this optical system. Its structure is comprised of tessellated, segmented plates that resemble the design of high-precision telescopes. These plates are perfectly arranged to reflect light back onto the retinas. The red box in the image marks the center of the mirror, which reflects incoming light with high efficiency.
 
 <img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/scallops/crystal_layer.png" style="width: 100%; max-width: 600px; height: auto; 
             @media (min-width: 768px) { width: 80%; max-width: 800px; } 
@@ -312,7 +312,7 @@ Yousefi et al 2023. Tracking of moving human in different overlapping cameras us
 
 ### Conclusion
 
-The scallop eye is a marvel of evolutionary adaptation, optimized for underwater vision and offering fascinating insights into the intersection of biology, physics, and engineering. Its unique combination of complex mirror design, guanine crystal structure, and multi-functional sensory input systems make it a prime example of nature’s ingenuity. Understanding these natural systems not only illuminates the scallop’s world but also offers inspiration for advancements in technology, from optical systems to surveillance and beyond.
+The scallop eye is a marvel of evolutionary adaptation, optimized for underwater vision and offering insights into the intersection of biology, physics, and engineering. Its unique combination of complex mirror design, guanine crystal structure, and multi-functional sensory input systems make it a prime example of nature’s ingenuity. Understanding these natural systems not only illuminates the scallop’s world but also offers inspiration for advancements in technology, from optical systems to surveillance and beyond.
 
 #### References
 <small>

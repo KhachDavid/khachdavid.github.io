@@ -74,10 +74,10 @@ function App() {
     },
     {
       id: "scallop_eyes",
-      title: "Simulating Scallop Eyes",
+      title: "Scallop Vision-Inspired Intruder Detection",
       gif: scallop_eyes,
       description:
-        "A simulation of how scallops use their eyes to escape from threats. The simulation higlights the importance of bioinspired design in engineering.",
+      "A simulation of an autonomous agent performing intruder detection using a vision system inspired by scallop eyes. This approach demonstrates the potential of bioinspired sensing for enhancing situational awareness and threat detection in robotics and autonomous systems.",
       tags: [
         "Biomimicry",
         "CNN",
