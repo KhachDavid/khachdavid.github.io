@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_website=self.webpackChunkpersonal_website||[]).push([[470],{470:(e,s,p)=>{e.exports=p.p+"static/media/scallop_eyes.ed39f1b404e63f1c2514.md"}}]);

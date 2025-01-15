@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c3999f8d.css",
-    "main.js": "/static/js/main.633ec13e.js",
+    "main.js": "/static/js/main.da0d3a59.js",
     "static/js/616.9f37709a.chunk.js": "/static/js/616.9f37709a.chunk.js",
     "static/js/265.35533080.chunk.js": "/static/js/265.35533080.chunk.js",
     "static/js/134.f759b0f7.chunk.js": "/static/js/134.f759b0f7.chunk.js",
     "static/js/817.17438c71.chunk.js": "/static/js/817.17438c71.chunk.js",
     "static/js/867.b0a19dc1.chunk.js": "/static/js/867.b0a19dc1.chunk.js",
-    "static/js/470.27e8029b.chunk.js": "/static/js/470.27e8029b.chunk.js",
+    "static/js/470.d3ba85ac.chunk.js": "/static/js/470.d3ba85ac.chunk.js",
     "static/js/945.93abc185.chunk.js": "/static/js/945.93abc185.chunk.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/generator.gif": "/static/media/generator.7674c6e2671b2800573c.gif",
@@ -16,8 +16,8 @@
     "static/media/dice_animation.gif": "/static/media/dice_animation.09bdf435bb8d76bda1a1.gif",
     "static/media/pen_demo.gif": "/static/media/pen_demo.217b799da9995e338a03.gif",
     "static/media/kuka.gif": "/static/media/kuka.f2106f56dbe4775a1dcf.gif",
+    "static/media/David_Khachatryan_Resume.pdf": "/static/media/David_Khachatryan_Resume.c2595f114c3619a76b17.pdf",
     "static/media/el_tracker.JPEG": "/static/media/el_tracker.0457071051d12ce3c9fa.JPEG",
-    "static/media/David_Khachatryan_Resume.pdf": "/static/media/David_Khachatryan_Resume.0d7e717da170f7a1f499.pdf",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
@@ -34,7 +34,7 @@
     "static/media/KaTeX_Main-Regular.woff2": "/static/media/KaTeX_Main-Regular.f650f111a3b890d116f1.woff2",
     "static/media/KaTeX_Main-Bold.woff2": "/static/media/KaTeX_Main-Bold.39890742bc957b368704.woff2",
     "static/media/KaTeX_SansSerif-Bold.ttf": "/static/media/KaTeX_SansSerif-Bold.5b49f4993ae22d7975b4.ttf",
-    "static/media/scallop_eyes.md": "/static/media/scallop_eyes.26ef650abe978c99b6b1.md",
+    "static/media/scallop_eyes.md": "/static/media/scallop_eyes.ed39f1b404e63f1c2514.md",
     "static/media/KaTeX_SansSerif-Italic.ttf": "/static/media/KaTeX_SansSerif-Italic.b257a18c016f37ee4543.ttf",
     "static/media/KaTeX_Main-Italic.woff": "/static/media/KaTeX_Main-Italic.fd947498bc16392e76c2.woff",
     "static/media/KaTeX_Fraktur-Bold.ttf": "/static/media/KaTeX_Fraktur-Bold.4c761b3711973ab04edf.ttf",
@@ -88,11 +88,11 @@
     "static/media/pen_thief.md": "/static/media/pen_thief.6632a33e24c1cd89ceae.md",
     "index.html": "/index.html",
     "main.c3999f8d.css.map": "/static/css/main.c3999f8d.css.map",
-    "main.633ec13e.js.map": "/static/js/main.633ec13e.js.map",
+    "main.da0d3a59.js.map": "/static/js/main.da0d3a59.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3999f8d.css",
-    "static/js/main.633ec13e.js"
+    "static/js/main.da0d3a59.js"
   ]
 }
