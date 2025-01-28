@@ -5,6 +5,7 @@ import el_tracker from "./assets/el_tracker.JPEG";
 import scallop_eyes from "./assets/scallop_sim.gif";
 import dice_animation from "./assets/dice_animation.gif";
 import whack_a_mole from "./assets/whack_a_mole_homepage.gif";
+import dog_ar from "./assets/dog_demo_lite.gif";
 import { Route, Routes, Link } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import About from "./About";
@@ -18,6 +19,14 @@ import React from "react";
 
 function App() {
   const galleryItems = [
+    {
+      id: "controlling_unitree_with_ar_glasses",
+      title: "Controlling Unitree GO1 with AR Glasses",
+      gif: dog_ar,
+      description:
+        "A quadruped robot that can be controlled using AR glasses. The robot uses ROS2 for its control and navigation, and the AR glasses provide a hands-free interface for the user to control the robot.",
+      tags: ["ROS2", "AR", "C++", "Mediapipe", "Quadropeds", "Control"],
+    },
     {
       id: "whack_a_mole",
       title: "Robot Whack-a-Mole Player",
