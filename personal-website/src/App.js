@@ -50,7 +50,7 @@ function App() {
       title: "Founder of EL Tracker",
       gif: el_tracker,
       description:
-        "With thousands of daily users and a 5-star rating, EL Tracker offers an efficient and reliable way to navigate Chicago’s transit system. EL Tracker is also the only app designed to work seamlessly for blind users, ensuring they can navigate the city with confidence and ease.",
+        "With 4k+ daily users and a 5-star rating, EL Tracker offers an efficient and reliable way to navigate Chicago’s transit system. EL Tracker is also the only app designed to work seamlessly for blind users, ensuring they can navigate the city with confidence and ease.",
       tags: [
         "Swift",
         "Kotlin",
