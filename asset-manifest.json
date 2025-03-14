@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6512829e.css",
-    "main.js": "/static/js/main.ced1acd5.js",
-    "static/js/797.989377d1.chunk.js": "/static/js/797.989377d1.chunk.js",
+    "main.js": "/static/js/main.4b82d3c9.js",
+    "static/js/797.5a26bfce.chunk.js": "/static/js/797.5a26bfce.chunk.js",
     "static/js/616.9f37709a.chunk.js": "/static/js/616.9f37709a.chunk.js",
     "static/js/265.35533080.chunk.js": "/static/js/265.35533080.chunk.js",
     "static/js/134.f759b0f7.chunk.js": "/static/js/134.f759b0f7.chunk.js",
@@ -63,7 +63,7 @@
     "static/media/KaTeX_Size1-Regular.ttf": "/static/media/KaTeX_Size1-Regular.6de7d4b539221a49e9e2.ttf",
     "static/media/KaTeX_SansSerif-Bold.woff2": "/static/media/KaTeX_SansSerif-Bold.95591a929f0d32aa282a.woff2",
     "static/media/KaTeX_SansSerif-Italic.woff2": "/static/media/KaTeX_SansSerif-Italic.7d393d382f3e7fb1c637.woff2",
-    "static/media/controlling_unitree_with_ar_glasses.md": "/static/media/controlling_unitree_with_ar_glasses.972fb9c19862c24cc2b0.md",
+    "static/media/controlling_unitree_with_ar_glasses.md": "/static/media/controlling_unitree_with_ar_glasses.27621e2188fd1c3b21ec.md",
     "static/media/KaTeX_Size2-Regular.ttf": "/static/media/KaTeX_Size2-Regular.57f5c1837853986ea1db.ttf",
     "static/media/KaTeX_Fraktur-Bold.woff2": "/static/media/KaTeX_Fraktur-Bold.931d67ea207ab37ee693.woff2",
     "static/media/KaTeX_Fraktur-Regular.woff2": "/static/media/KaTeX_Fraktur-Regular.172d3529b26f8cedef6b.woff2",
@@ -91,11 +91,11 @@
     "static/media/pen_thief.md": "/static/media/pen_thief.6632a33e24c1cd89ceae.md",
     "index.html": "/index.html",
     "main.6512829e.css.map": "/static/css/main.6512829e.css.map",
-    "main.ced1acd5.js.map": "/static/js/main.ced1acd5.js.map",
+    "main.4b82d3c9.js.map": "/static/js/main.4b82d3c9.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6512829e.css",
-    "static/js/main.ced1acd5.js"
+    "static/js/main.4b82d3c9.js"
   ]
 }
