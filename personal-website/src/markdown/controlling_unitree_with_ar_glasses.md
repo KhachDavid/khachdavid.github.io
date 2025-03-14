@@ -143,6 +143,10 @@ Future Tasks and Improvements:
 
 This project demonstrates the feasibility of closed-loop control of a quadruped robot using high-level hand gestures and AR-enabled visual feedback. Starting with basic movement commands and evolving into advanced control modes, the iterative development process has been guided by a detailed journal documenting week-by-week progress. The integration of ROS2-based control, Mediapipe hand tracking, and AR glasses for real-time imaging forms a robust proof-of-concept that not only achieves closed-loop control but also opens the door to future enhancements such as IMU-based head movement control and optical flow for spatial navigation.
 
+<iframe style="width: 100%; max-width: 600px; height: auto; min-height: 400px; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" src="https://www.youtube.com/embed/POHBXnE-2EU?si=vtejNMxPS6ItHHtg&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 By sharing these insights and the challenges encountered, from meeting hardware limitations to overcoming the biggest issue of latency, the intention is to contribute openly to the robotics and AR communities and lay the foundation for more immersive, intuitive human–robot interfaces.
 
 ## Sources and References
