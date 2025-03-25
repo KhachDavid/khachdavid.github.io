@@ -21,11 +21,11 @@ function App() {
   const galleryItems = [
     {
       id: "controlling_unitree_with_ar_glasses",
-      title: "Controlling Unitree GO1 with AR Glasses",
+      title: "Teleoperating Quadrupeds with AR Glasses",
       gif: dog_ar,
       description:
-        "A quadruped robot that can be controlled using AR glasses. The robot uses ROS2 for its control and navigation, and the AR glasses provide a hands-free interface for the user to control the robot.",
-      tags: ["ROS2", "AR", "C++", "Mediapipe", "Quadropeds", "Control"],
+        "A quadruped robot that can be controlled using a resource constrained environment, such as AR glasses. The robot uses ROS2 for its control and navigation, and the AR glasses provide a hands-free interface for the user to control the robot.",
+      tags: ["ROS2", "AR", "C++", "Mediapipe", "Quadrupeds", "Lua"],
     },
     {
       id: "whack_a_mole",
@@ -71,7 +71,7 @@ function App() {
       gif: kuka_gif,
       description:
         "A software that plans a trajectory for the end effector, conducts odometry while the robot moves, and handles feedback control to ensure the robot reaches its goal.",
-      tags: ["Controls", "CoppeliaSim", "Python","KUKA youBot", "Matrix Transformations"],
+      tags: ["PID Control", "CoppeliaSim", "Python","KUKA youBot", "Matrix Transformations"],
     },
     {
       id: "pen_thief",
