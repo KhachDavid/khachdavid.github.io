@@ -5,6 +5,7 @@ import el_tracker from "./assets/el_tracker.JPEG";
 import scallop_eyes from "./assets/scallop_sim.gif";
 import dice_animation from "./assets/dice_animation.gif";
 import whack_a_mole from "./assets/whack_a_mole_homepage.gif";
+import cuda_jolt_gif from "./assets/cuda_jolt_demo.gif";
 import dog_ar from "./assets/dog_demo_lite.gif";
 import { Route, Routes, Link } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
@@ -64,6 +65,13 @@ function App() {
         "CI/CD",
         "Community Engagement",
       ],
+    },
+    {
+      id: "cuda_physics_engine",
+      title: "CUDA Physics Engine",
+      gif: cuda_jolt_gif,
+      description: "Jolt Physics Engine Optimizations Using CUDA Parallel Programming", 
+      tags: ["CUDA", "C++", "Soft Robotics", "Physics Engine"]
     },
     {
       id: "mobile_manipulation",
