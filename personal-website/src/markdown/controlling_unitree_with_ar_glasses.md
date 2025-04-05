@@ -123,9 +123,23 @@ Side Mount of the AR Glasses. Concept Design Found on Brilliant Frames Discord
 </p>
 </br>
 
+## Presentation and Media Coverage
+
+This project was presented at the Museum of Science and Industry's Robot Block Party in Chicago, where it was featured on the Fox32 Chicago News Instagram page. 
+
+<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/fox_photo.jpeg" style="width: 100%; max-width: 600px; height: auto; 
+            @media (min-width: 768px) { width: 80%; max-width: 800px; } 
+            @media (min-width: 1200px) { width: 60%; max-width: 1000px; }" />
+
+</br>
+
+My project was also featured in a Brilliant Labs article, presenting an overhaul of their open-source Python SDK, which I contributed to as part of this project.
+
+Article of the announcement can be found here: [Introducing the new Frame SDK](https://brilliant.xyz/blogs/announcements/introducing-the-new-frame-sdk) 
+
 ## Conclusion
 
-This project demonstrates the feasibility of closed-loop control of a quadruped robot, using high-level hand gestures and AR-enabled visual feedback. The integration of ROS2-based control, Mediapipe hand tracking, and AR glasses for real-time imaging forms a robust proof-of-concept for teleoperation in a resource constrained environment. This not only achieves closed-loop control but also opens the door to future enhancements such as IMU-based head movement control.
+This project demonstrates the feasibility of closed-loop control of a quadruped robot, using high-level hand gestures and AR-enable visual feedback. The integration of ROS2-based control, Mediapipe hand tracking, and AR glasses for real-time imaging forms a robust proof-of-concept for teleoperation in a resource constrained environment. This not only achieves closed-loop control but also opens the door to future enhancements such as IMU-based head movement control.
 
 ## Sources and References
 
