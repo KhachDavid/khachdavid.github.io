@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_website=self.webpackChunkpersonal_website||[]).push([[444],{444:(e,a,s)=>{e.exports=s.p+"static/media/franka_sim.aba2af1c01251c9241a6.md"}}]);
