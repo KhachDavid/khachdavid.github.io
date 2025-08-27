@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.6512829e.css",
-    "main.js": "/static/js/main.a4b3e690.js",
+    "main.css": "/static/css/main.c3999f8d.css",
+    "main.js": "/static/js/main.4f508898.js",
     "static/js/797.e87badd2.chunk.js": "/static/js/797.e87badd2.chunk.js",
     "static/js/835.0aa59a34.chunk.js": "/static/js/835.0aa59a34.chunk.js",
     "static/js/616.9f37709a.chunk.js": "/static/js/616.9f37709a.chunk.js",
     "static/js/265.35533080.chunk.js": "/static/js/265.35533080.chunk.js",
+    "static/js/444.d113a9a1.chunk.js": "/static/js/444.d113a9a1.chunk.js",
     "static/js/134.f759b0f7.chunk.js": "/static/js/134.f759b0f7.chunk.js",
     "static/js/817.17438c71.chunk.js": "/static/js/817.17438c71.chunk.js",
     "static/js/867.b0a19dc1.chunk.js": "/static/js/867.b0a19dc1.chunk.js",
@@ -20,8 +21,9 @@
     "static/media/cuda_jolt_demo.gif": "/static/media/cuda_jolt_demo.5d11fed8e9a11e3c6385.gif",
     "static/media/kuka.gif": "/static/media/kuka.f2106f56dbe4775a1dcf.gif",
     "static/media/dog_demo_lite.gif": "/static/media/dog_demo_lite.3035ed5a3f2d061a848f.gif",
+    "static/media/David_Khachatryan_Resume.pdf": "/static/media/David_Khachatryan_Resume.c2595f114c3619a76b17.pdf",
     "static/media/el_tracker.JPEG": "/static/media/el_tracker.0457071051d12ce3c9fa.JPEG",
-    "static/media/David_Khachatryan_Resume.pdf": "/static/media/David_Khachatryan_Resume.a5144009fceb4c3a80ea.pdf",
+    "static/media/franka_project.gif": "/static/media/franka_project.38e9736f196ea4ca4dd8.gif",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
@@ -92,13 +94,14 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "static/media/dice_simulation.md": "/static/media/dice_simulation.e2235e07e0c7d131d259.md",
     "static/media/pen_thief.md": "/static/media/pen_thief.6632a33e24c1cd89ceae.md",
+    "static/media/franka_sim.md": "/static/media/franka_sim.89c75465c96203d045fb.md",
     "index.html": "/index.html",
-    "main.6512829e.css.map": "/static/css/main.6512829e.css.map",
-    "main.a4b3e690.js.map": "/static/js/main.a4b3e690.js.map",
+    "main.c3999f8d.css.map": "/static/css/main.c3999f8d.css.map",
+    "main.4f508898.js.map": "/static/js/main.4f508898.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6512829e.css",
-    "static/js/main.a4b3e690.js"
+    "static/css/main.c3999f8d.css",
+    "static/js/main.4f508898.js"
   ]
 }
