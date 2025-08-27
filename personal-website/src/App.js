@@ -7,6 +7,7 @@ import dice_animation from "./assets/dice_animation.gif";
 import whack_a_mole from "./assets/whack_a_mole_homepage.gif";
 import cuda_jolt_gif from "./assets/cuda_jolt_demo.gif";
 import dog_ar from "./assets/dog_demo_lite.gif";
+import franka_project from "./assets/franka_project.gif";
 import { Route, Routes, Link } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import About from "./About";
@@ -21,11 +22,18 @@ import React from "react";
 function App() {
   const galleryItems = [
     {
+      id: "franka_sim",
+      title: "Franka FCI Simulator in Drake",
+      gif: franka_project,
+      description: "Drake based high fidelity simulation of the Franka robot that is compatible with existing libfranka libraries.",
+      tags: ["Drake", "Franka FCI", "libfranka", "Simulator", "Robot Arm", "ROS2"],
+    },
+    {
       id: "controlling_unitree_with_ar_glasses",
-      title: "Teleoperating Quadrupeds with AR Glasses",
+      title: "Unitree teleop with AR Glasses",
       gif: dog_ar,
       description:
-        "A quadruped robot that can be controlled using a resource constrained environment, such as AR glasses. The robot uses ROS2 for its control and navigation, and the AR glasses provide a hands-free interface for the user to control the robot.",
+        "The AR glasses provide a hands-free interface for the user to control the robot",
       tags: ["ROS2", "AR", "C++", "Mediapipe", "Quadrupeds", "Lua"],
     },
     {
@@ -33,7 +41,7 @@ function App() {
       title: "Robot Whack-a-Mole Player",
       gif: whack_a_mole,
       description:
-        "A 7-DOF robot arm Frank Panda plays Whack-a-Mole using computer vision to detect the moles and hit them.",
+        "A 7-DOF robot arm Franka plays Whack-a-Mole using computer vision to detect the moles and hit them.",
       tags: [
         "ROS2", 
         "OpenCV",
@@ -51,11 +59,10 @@ function App() {
       title: "Founder of EL Tracker",
       gif: el_tracker,
       description:
-        "With 4k+ daily users and a 5-star rating, EL Tracker offers an efficient and reliable way to navigate Chicago’s transit system. EL Tracker is also the only app designed to work seamlessly for blind users, ensuring they can navigate the city with confidence and ease.",
+        "With 5k+ daily users and a 5-star rating, EL Tracker is also the only transit app that seamlessly works for blind users.",
       tags: [
         "Swift",
         "Kotlin",
-        "Mobile Development",
         "Django",
         "Node.js",
         "Linux",
@@ -94,7 +101,7 @@ function App() {
       title: "Scallop Vision-Inspired Intruder Detection",
       gif: scallop_eyes,
       description:
-      "A simulation of an autonomous agent performing intruder detection using a vision system inspired by scallop eyes. This approach demonstrates the potential of bioinspired sensing for enhancing situational awareness and threat detection in robotics and autonomous systems.",
+      "A simulation of an autonomous agent performing intruder detection using a vision system inspired by scallop eyes.",
       tags: [
         "Biomimicry",
         "CNN",
