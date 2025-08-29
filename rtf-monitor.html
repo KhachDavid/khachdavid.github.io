@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RTF Monitor</title>
+    <style>
+      :root {
+        --radius: 10px;
+        --shadow: 0 2px 10px rgba(0,0,0,0.06);
+        --muted: #64748b;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: transparent;
+      }
+      .container {
+        box-sizing: border-box;
+        padding: 14px;
+        background: #ffffff;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        border: 1px solid #e5e7eb;
+      }
+      .metrics {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .metric {
+        flex: 1 1 160px;
+        min-width: 150px;
+        background: #f8fafc;
+        border-left: 4px solid #e5e7eb;
+        border-radius: 6px;
+        padding: 10px 12px;
+      }
+      .metric.rtf { background:#e3f2fd; border-left-color:#2196f3; }
+      .metric.physics { background:#f3e5f5; border-left-color:#9c27b0; }
+      .metric.freq { background:#e8f5e8; border-left-color:#4caf50; }
+      .metric.target { background:#fff3e0; border-left-color:#ff9800; }
+      .label { font-size: 12px; color: var(--muted); }
+      .value { font-size: 22px; font-weight: 700; margin: 4px 0; }
+      .status { margin-top: 12px; padding: 10px; border-radius: 6px; font-size: 14px; }
+      .status.good { background:#d4edda; color:#155724; border:1px solid #c3e6cb; }
+      .status.warning { background:#fff3cd; color:#856404; border:1px solid #ffeaa7; }
+      .status.poor { background:#f8d7da; color:#721c24; border:1px solid #f5c6cb; }
+      .footer { margin-top:8px; text-align:right; font-size:12px; color:#94a3b8; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="metrics">
+        <div class="metric rtf">
+          <div class="label">Real-Time Factor</div>
+          <div class="value" id="rtf">4.0x</div>
+          <div class="label">target: 1.0x</div>
+        </div>
+        <div class="metric physics">
+          <div class="label">Avg Physics Time</div>
+          <div class="value" id="physics">0.2</div>
+          <div class="label">milliseconds</div>
+        </div>
+        <div class="metric freq">
+          <div class="label">Effective Frequency</div>
+          <div class="value" id="freq">3000</div>
+          <div class="label">Hz</div>
+        </div>
+        <div class="metric target">
+          <div class="label">Target Frequency</div>
+          <div class="value" id="target">1000</div>
+          <div class="label">Hz</div>
+        </div>
+      </div>
+      <div id="status" class="status">
+        <strong>Status:</strong> <span id="status-text">Excellent</span>
+      </div>
+      <div class="footer">Last update: <span id="last-update">10:00:00</span></div>
+    </div>
+
+    <script>
+      function updateMetrics() {
+        fetch('/performance.json', { cache: 'no-store' })
+          .then(r => r.json())
+          .then(data => {
+            const rtf = Number(data.rtf || 0);
+            const physics = Number(data.physics || 0);
+            const freq = Number(data.freq || 0);
+
+            document.getElementById('rtf').textContent = rtf ? rtf.toFixed(3) + 'x' : '--';
+            document.getElementById('physics').textContent = physics ? physics.toFixed(3) : '--';
+            document.getElementById('freq').textContent = freq ? freq.toFixed(0) : '--';
+
+            const status = document.getElementById('status');
+            const statusText = document.getElementById('status-text');
+            status.className = 'status';
+            if (rtf >= 0.95) { status.classList.add('good'); statusText.textContent = 'Excellent – near real‑time'; }
+            else if (rtf >= 0.8) { status.classList.add('warning'); statusText.textContent = 'Good – slightly below real‑time'; }
+            else { status.classList.add('poor'); statusText.textContent = 'Below real‑time'; }
+
+            document.getElementById('last-update').textContent = new Date().toLocaleTimeString();
+          })
+          .catch(() => {
+            // keep previous values; show a soft message once
+          });
+      }
+      updateMetrics();
+      setInterval(updateMetrics, 1000);
+    </script>
+  </body>
+  </html>
+
+
