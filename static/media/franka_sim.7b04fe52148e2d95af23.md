@@ -228,10 +228,6 @@ This ability to conduct position control with such high accuracy opens the door 
 
 ## Acknowledgments
 
-<img src="https://raw.githubusercontent.com/KhachDavid/static/refs/heads/main/elwin-matt.jpg" style="width: 100%; max-width: 200px; height: auto; 
-            @media (min-width: 768px) { width: 100%; max-width: 200px; } 
-            @media (min-width: 1200px) { width: 100%; max-width: 200px; }" />
-
 I would like to thank my advisor [Prof. Matt Elwin](https://robotics.northwestern.edu/people/profiles/faculty/elwin-matt.html) for his support and guidance.
 
 </div>
